@@ -66,7 +66,7 @@ namespace DFT
                              0, (im & 0xFF00) >> 8,
                              (re & 0xFF00) >> 8
                             ));
-
+                         
                         _bmp2.SetPixel(y, x, Color.FromArgb(
                             0, im & 0xFF,
                             re & 0xFF
