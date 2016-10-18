@@ -81,7 +81,7 @@ namespace SimpleDFT
             {
                 for (int i = 0; i < len; i++)
                 {
-                    output[i] += Math.Cos(2 * Math.PI * n / len * i) * samples[n].Real;
+                    output[i]  += Math.Cos(2 * Math.PI * n / len * i) * samples[n].Real;
                     output[i] += Math.Sin(2 * Math.PI * n / len * i) * samples[n].Imaginary;
                 }
             }
